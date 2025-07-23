@@ -1,12 +1,18 @@
 <?php
 // Configuración de la Base de Datos (¡Asegúrate de que estas IPs y credenciales sean las correctas!)
-$servername = "172.16.90.107"; // IP de tu dbserver-lxc
-$username = "Cristian"; // Tu usuario de MariaDB para el blog
-$password = "782508"; // ¡CAMBIA ESTA CONTRASEÑA!
-$dbname = "db_blog_personal"; // La base de datos que creaste para el blog
-
+//$servername = ""; // IP de tu dbserver-lxc
+//$username = ""; // Tu usuario de MariaDB para el blog
+//$password = ""; // ¡CAMBIA ESTA CONTRASEÑA!
+//$dbname = ""; // La base de datos que creaste para el blog
 // Crear conexión
-$conn = new mysqli($servername, $username, $password, $dbname);
+//$conn = new mysqli($servername, $username, $password, $dbname);
+
+//datos acceso en  archivo externo
+require_once __DIR__ . '/db_config.php';
+
+// Crear conexión usando las constantes definidas en db_config.php
+$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+
 
 // Verificar conexión
 if ($conn->connect_error) {
