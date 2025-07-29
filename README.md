@@ -1,0 +1,15 @@
+UNIVERSIDAD TECNOLÓGICA NACIONAL
+FACULTAD REGIONAL TUCUMÁN
+
+
+TRABAJO PRACTICO FINAL
+CASO DE ESTUDIO: BLOG PERSONAL
+
+
+ASIGNATURA: Virtualización: Consolidación de Servidores - 2025
+
+DOCENTE: Ing Luis María Carriles 
+
+ALUMNO: Cristian Manuel Aparicio
+
+LEG: 20474
